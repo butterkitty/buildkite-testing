@@ -1,5 +1,5 @@
 env:
-  PATH: "/some:/things"
+  PATH: "/some:/things:$PATH"
   XYZ_DISABLE_PROMPTS: "1"
 
 steps:
