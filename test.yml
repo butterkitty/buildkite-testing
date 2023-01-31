@@ -4,4 +4,4 @@ env:
 
 steps:
   - command:
-    - echo things and stuff
+    - echo $PATH
