@@ -2,9 +2,6 @@ env:
   PATH: "/some:/things"
   XYZ_DISABLE_PROMPTS: "1"
 
-agents:
-  queue: "test"
-
 steps:
   - command:
     - echo things and stuff
