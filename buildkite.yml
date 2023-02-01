@@ -1,7 +1,8 @@
 env:
   PATH: "/some:/things:$PATH"
   XYZ_DISABLE_PROMPTS: "1"
-
+agent:
+  queue: "things"
 steps:
   - command:
     - echo $PATH
