@@ -1,3 +1,4 @@
 steps:
   - command:
-    - buildkite-agent artifact upload "coverage/!(exclude)/**/*"
+    #- buildkite-agent artifact upload "coverage/!(exclude)/**/*"
+    - buildkite-agent artifact upload "!coverage/exclude;coverage/**"
