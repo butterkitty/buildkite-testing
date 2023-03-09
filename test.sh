@@ -1,3 +1,3 @@
 #!/bin/bash
-echo $UID
+echo $UID 
 ls -l /home/michelle-work
